@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header */
+
+.main-header {
+    padding: 40px;
+    background-color: #5a3506;
+    color: #f1f4f6;
+    text-align: left;
+}
+.main-header img {
+    width: 316px;
+    height: 400px;
+}
