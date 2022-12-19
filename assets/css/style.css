@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+.display-flex {
+    display: flex;
+}
+
 /* Header */
 
 .main-header {
@@ -19,3 +23,16 @@ body {
     width: 316px;
     height: 400px;
 }
+
+/* Navbar */
+nav {
+    background-color: #f19011;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
