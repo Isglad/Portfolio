@@ -7,14 +7,6 @@ body {
     margin: 0;
 }
 
-.display-flex {
-    display: flex;
-}
-
-.flex-wrap {
-    flex-wrap: wrap;
-}
-
 .text-align-center {
     text-align: center;
 }
@@ -35,6 +27,7 @@ body {
 /* Navbar */
 nav {
     background-color: #f19011;
+    display: flex;
     justify-content: flex-end;
 }
 
@@ -44,47 +37,75 @@ nav a {
     text-decoration: none;
 }
 
-main {
-    display: inline-block;
-}
 
 /* About Me */
-#about-me {
+.section-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-1 aside {
     flex: 1;
     background: #b9c6ae;
     padding: 20px;
 }
-.about-me {
+.section-1 .about-me {
     flex: 3;
     background-color: #fff;
     padding: 20px;
 }
 
 /* Work */
-#work {
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-2 aside {
     flex: 1;
     background: #4e7c29;
     padding: 20px;
 }
-.img {
+.section-2 .img {
     flex: 3;
     background-color: #da9595;
     padding: 20px;
     display: inline-block;
 }
 
-#img-1 {
+.section-2 #img-1  {
     background-color: #0c4935;
     width: 100%;
+    padding: 20px;
+    height: 300px;
+    border: 5px solid black;
+}
+
+.section-2 .img2-5 {
+    background-color: #993517;
+    width: 49%;
     padding: 20px;
     height: 200px;
     border: 5px solid black;
 }
 
-.img-project {
-    background-color: #993517;
-    width: 50%;
+
+/* Contact Me */
+.section-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-3 aside {
+    flex: 1;
+    background: #112203;
     padding: 20px;
-    height: 200px;
-    border: 5px solid black;
+}
+.section-3 .contact-me {
+    flex: 3;
+    background-color: rgb(163, 64, 64);
+    padding: 20px;
+}
+.contact-me a{
+    display: inline-block;
+    padding: 0 90px;
+    color: #112203;
 }
