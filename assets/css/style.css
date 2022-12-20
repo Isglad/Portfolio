@@ -16,12 +16,15 @@ h2 {
     font-size: 40px;
 }
 
-/* Header */
+/* Header section */
 .main-header {
     padding: 40px;
     background-color: #250202;
     color: #f1f4f6;
-    text-align: left;
+}
+.main-header h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 .main-header img {
     width: 316px;
@@ -138,12 +141,9 @@ rgb(117, 13, 120);
     }
     .main-header h1 {
         display: flex;
-        justify-content: center;
-        padding: 20px;
+        padding: 20px 20px 20px 0px;
     }
-    .main-header img {
-        margin-left: 200px;
-    }
+
     nav {
         background-color: #16344f;
         flex-direction: column;
