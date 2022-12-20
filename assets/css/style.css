@@ -11,11 +11,15 @@ body {
     text-align: center;
 }
 
-/* Header */
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
 
+/* Header */
 .main-header {
     padding: 40px;
-    background-color: #5a3506;
+    background-color: #250202;
     color: #f1f4f6;
     text-align: left;
 }
@@ -26,15 +30,17 @@ body {
 
 /* Navbar */
 nav {
-    background-color: #f19011;
+    background-color: #561405;
     display: flex;
     justify-content: flex-end;
+    padding: 20px;
 }
 
 nav a {
-    color: #13293d;
+    color: #b3b9bd;
     padding: 14px 20px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -42,33 +48,34 @@ nav a {
 .section-1 {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px 0;
 }
 .section-1 aside {
     flex: 1;
-    background: #b9c6ae;
-    padding: 20px;
+    padding: 80px 20px;
+    border-right: 5px solid #260101
 }
 .section-1 .about-me {
     flex: 3;
     background-color: #fff;
-    padding: 20px;
+    padding: 80px 20px;
 }
 
 /* Work */
 .section-2 {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px 0;
 }
 
 .section-2 aside {
     flex: 1;
-    background: #4e7c29;
-    padding: 20px;
+    padding: 80px 20px;
+    border-right: 5px solid #260101
 }
 .section-2 .img {
     flex: 3;
-    background-color: #da9595;
-    padding: 20px;
+    padding: 80px 20px;
     display: inline-block;
 }
 
@@ -93,19 +100,66 @@ nav a {
 .section-3 {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px 0;
 }
 .section-3 aside {
     flex: 1;
-    background: #112203;
-    padding: 20px;
+    padding: 80px 20px;
+    border-right: 5px solid #260101
 }
 .section-3 .contact-me {
     flex: 3;
-    background-color: rgb(163, 64, 64);
-    padding: 20px;
+    padding: 80px 20px;
 }
 .contact-me a{
     display: inline-block;
-    padding: 0 90px;
+    padding: 0 190px;
     color: #112203;
 }
+
+/* Responsive layout */
+ @media  screen and (max-width: 768px) {
+    .main-header {
+        background-color: #050115;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-header h1 {
+        display: flex;
+        justify-content: center;
+    }
+    .main-header img {
+        margin-left: 200px;
+    }
+    nav {
+        background-color: #16344f;
+        flex-direction: column;
+    }
+    nav a {
+        text-align: center;
+    }
+    .section-1, .section-2, .section-3 {
+        flex-direction: column;
+    }
+    .section-1 p {
+        text-align: center;
+    }
+    .section-2 #img-1 .img2-5 {
+        width: 50%;
+        background-color: #5a3506;
+    }
+    .contact-me {
+        flex-direction: column;
+        display: flex;
+    }
+    .contact-me a {
+        text-align: center;
+    }
+    .section-1 aside, .section-2 aside, .section-3 aside {
+        border-right: 0px;
+    }
+    h2 {
+        text-decoration: underline;
+    }
+    
+ }
