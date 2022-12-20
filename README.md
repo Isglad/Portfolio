@@ -46,7 +46,7 @@ Hi, I'm Gladys Ange Isingizwe and this is my portfolio. I'm a junior full-stack 
 
 Once the website is deployed, you will see my full name and current photo on the top of the page. In the navigation bar, there are links to about me, my work and how to contact me. When you click on one of those links, the UI will scrolls to the corresponding section. When you click on the link to the section about my work, you will be presented with titled images of my applications. When you click on the image of the application, you will be taken to that deployed application. Finally, when you resize the page or view the site on various screens and devices, you will be presented with a responsive layout, you will see that text, pictures, links, sections' disposition will change.
 
-![Site Langing Page]()
+![Site Langing Page](https://media.giphy.com/media/8CPCyDkfMSzEkIyo7e/giphy-downsized-large.gif)
 
 ## Learning Points 
 
