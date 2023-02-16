@@ -29,7 +29,8 @@ Hi, I'm Gladys Ange Isingizwe and this is my portfolio. I'm a junior full-stack 
     - Source code : [Jeopardy Trivia Game](https://github.com/mccoydidericksen/jeopardy-game)
     - Live web page : [Jeopardy Trivia Game](https://mccoydidericksen.github.io/jeopardy-game)
 - Project 2: Project Panda.
-    - Deployed web page: [Project Panda][https://pure-depths-43598.herokuapp.com/]
+    - Source code: [Project Panda](https://github.com/bradcoleman60/project-panda)
+    - Deployed web page: [Project Panda](https://pure-depths-43598.herokuapp.com)
 
 
 ## Usage
